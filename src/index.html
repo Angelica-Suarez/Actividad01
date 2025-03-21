@@ -12,3 +12,39 @@
     </div>
   </body>
 </html>
+
+<div class="container text-center mt-5">
+  <h1 class="mb-4">Categorías Destacadas</h1>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card shadow">
+        <img src="assets/img/ropa.jpg" class="card-img-top" alt="Ropa">
+        <div class="card-body">
+          <h5 class="card-title">Moda</h5>
+          <a [routerLink]="['/productos']" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow">
+        <img src="assets/img/electronica.jpg" class="card-img-top" alt="Electrónica">
+        <div class="card-body">
+          <h5 class="card-title">Electrónica</h5>
+          <a [routerLink]="['/productos']" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card shadow">
+        <img src="assets/img/hogar.jpg" class="card-img-top" alt="Hogar">
+        <div class="card-body">
+          <h5 class="card-title">Hogar</h5>
+          <a [routerLink]="['/productos']" class="btn btn-primary">Ver más</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
