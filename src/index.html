@@ -7,44 +7,26 @@
   </head>
   <body>
     <div class="container py-4 px-3 mx-auto">
-      <h1>Hala!! Soy Angelica Suarez</h1>
-      <button class="btn btn-primary">Primary button</button>
+      <h1>Hola!! Soy Angelica Suarez</h1>
+      <button type="button" class="btn btn-primary">INICIO</button>
+      <button type="button" class="btn btn-secondary">ACERCA DE</button>
+      <button type="button" class="btn btn-success">NOSOTROS</button>
     </div>
   </body>
 </html>
-
-<div class="container text-center mt-5">
-  <h1 class="mb-4">Categorías Destacadas</h1>
-
-  <div class="row">
-    <div class="col-md-4">
-      <div class="card shadow">
-        <img src="assets/img/ropa.jpg" class="card-img-top" alt="Ropa">
-        <div class="card-body">
-          <h5 class="card-title">Moda</h5>
-          <a [routerLink]="['/productos']" class="btn btn-primary">Ver más</a>
-        </div>
-      </div>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">VIAJES</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </div>
-
-    <div class="col-md-4">
-      <div class="card shadow">
-        <img src="assets/img/electronica.jpg" class="card-img-top" alt="Electrónica">
-        <div class="card-body">
-          <h5 class="card-title">Electrónica</h5>
-          <a [routerLink]="['/productos']" class="btn btn-primary">Ver más</a>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-md-4">
-      <div class="card shadow">
-        <img src="assets/img/hogar.jpg" class="card-img-top" alt="Hogar">
-        <div class="card-body">
-          <h5 class="card-title">Hogar</h5>
-          <a [routerLink]="['/productos']" class="btn btn-primary">Ver más</a>
-        </div>
-      </div>
-    </div>
+  </div>
+</nav>
+<div class="container mt-5">
+  <div class="jumbotron text-center">
+    <p class="lead">Esta es la página de inicio de tu aplicación Mi primera paguina.</p>
+    <hr class="my-4">
+    <p>Explora las funcionalidades navegando por las secciones.</p>
+    <a class="btn btn-primary btn-lg" routerLink="/about">Más información</a>
   </div>
 </div>
